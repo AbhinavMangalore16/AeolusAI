@@ -11,7 +11,7 @@ A sleek weather dashboard that combines real-time forecast data and a trained ML
 
 ## 🧠 Tech Stack
 - Frontend: React + Tailwind
-- Backend (DS): Scikit-learn, MLflow, Python
+- Backend (DS): Random Forest, XGBoost, GBRT (via scikit-learn), MLflow, Python
 - Data Source: OpenWeatherMap API
 - Deployment: Vercel, Cron(https://aeolus-ai.vercel.app/)
 
@@ -32,3 +32,7 @@ pip install -r requirements.txt
 cd frontend
 npm install
 npm run dev
+```
+
+## Data, Model and Experiment Tracking Folder:
+Drive link: https://drive.google.com/drive/folders/18DQYmg1kVqzTMWhU-ePrN46kgn_JWazn?usp=drive_link
