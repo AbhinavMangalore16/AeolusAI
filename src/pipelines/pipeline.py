@@ -4,6 +4,10 @@ from features import create_features
 from models import train_model, train_model_temp
 from inference import run_inference
 from sklearn.model_selection import train_test_split
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -13,7 +17,7 @@ def main():
     csv_path = "data/raw/weather.csv"
     parquet_path = "data/processed/weather.parquet"
     pipeline_path = "models/feature_pipeline.joblib"
-    api_key = "YOUR_API_KEY_HERE"
+    api_key = os.environ.get("OPEN_WEATHER_API_KEY")
     city = "Delhi"
 
     df = load_csv(csv_path)

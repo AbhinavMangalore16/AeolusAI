@@ -2,13 +2,16 @@ import mlflow
 import pandas as pd
 import requests
 import logging
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("AeolusAI")
 
 # Your OpenWeatherMap API Key
-API_KEY = "YOUR_API_KEY_HERE"  # <-- Replace with your real key
+API_KEY = os.environ.get("OPEN_WEATHER_API_KEY")  
 CITY = "Delhi"
 MODEL_NAME = "TemperatureRegressor"  # or "PrecipitationRegressor"
 MODEL_STAGE = "Production"
