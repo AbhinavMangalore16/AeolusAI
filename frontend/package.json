@@ -1,0 +1,31 @@
+{
+  "name": "aeolus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Quickly access accurate weather information with a clean, modern and user-friendly design.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhinavMangalore16/AeolusAI.git"
+  },
+  "author": "Mustafa Pekkirişci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbhinavMangalore16/AeolusAI/issues"
+  },
+  "homepage": "https://github.com/AbhinavMangalore16/AeolusAI.git#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "sass": "^1.59.2",
+    "vite": "^4.1.0",
+    "vite-plugin-static-copy": "^0.13.1"
+  },
+  "browserslist": [
+    "> 0%"
+  ]
+}
