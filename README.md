@@ -29,8 +29,20 @@ A sleek weather dashboard that combines real-time forecast data and a trained ML
 VITE_API_KEY=your_openweathermap_api_key
 3. Run the app:
 ```bash
+# 1. Clone the repo
+git clone [https://github.com/your-username/aeolusai.git](https://github.com/AbhinavMangalore16/AeolusAI.git)
+cd AeolusAI
+
+# 2. Set up environment
 python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+# 3. Add your API key
+# Create a .env file in the root directory and add:
+OPEN_WEATHER_API_KEY=your_openweathermap_api_key
+
+# 4. Run the frontend
 cd frontend
 npm install
 npm run dev
