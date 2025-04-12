@@ -1,6 +1,6 @@
-from src.fetch_weather import get_weather_data
-from src.utils import append_to_csv
-from src.logger import get_logger
+from data.fetch_weather import get_weather_data
+from utils.utils import append_to_csv
+from utils.logger import get_logger
 import schedule
 import time
 

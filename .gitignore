@@ -174,3 +174,51 @@ cython_debug/
 .pypirc
 
 *.csv
+logs/
+
+# ------------------------
+# MLflow
+# ------------------------
+mlruns/
+mlruns.db
+mlflow.log
+mlflow-artifacts/
+**/mlruns/
+**/mlflow-artifacts/
+
+# ------------------------
+# DVC
+# ------------------------
+.dvc/
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+*.dvc
+*.dvc.lock
+
+# If you're using DVC remote storage
+data/
+artifacts/
+model_store/
+checkpoints/
+
+# ------------------------
+# Model Files (General)
+# ------------------------
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.sav
+*.tflite
+
+# Hugging Face Transformers / Checkpoints
+*.bin
+pytorch_model.bin
+tf_model.h5
+*.ckpt
+
+# TensorBoard logs
+runs/
+
