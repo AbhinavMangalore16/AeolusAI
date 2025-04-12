@@ -3,7 +3,7 @@ Why the name **“Aeolus”**?
 
 Because he is the Greek god of wind — and who better to trust with weather forecasts than the guy literally in charge of the skies?
 ## 🌤️ Overview
-A sleek weather dashboard that combines real-time forecast data and a trained ML model (for precipitation prediction) to deliver 5-day weather insights.
+A sleek weather dashboard that combines real-time forecast data and a trained ML model (for precipitation and temperature prediction along with a classification for the weather) to deliver 5-day weather insights.
 
 ## ⚙️ Key Features
 - Real-time weather forecast using OpenWeatherMap API
@@ -18,7 +18,7 @@ A sleek weather dashboard that combines real-time forecast data and a trained ML
 - Deployment: Vercel, Cron [(deployed here)](https://aeolus-ai.vercel.app/)
 
 ## 🔍 ML Approach
-- Model: Regression for precipitation
+- Model: Regression for precipitation and temperature; Classifier for the weather (cloudy, sunny, rain, etc.)
 - Trained on historical weather data
 - MAE/RMSE/R² logged via MLflow
 - Code and metrics available in [this Drive link (click here)](https://drive.google.com/drive/folders/18DQYmg1kVqzTMWhU-ePrN46kgn_JWazn?usp=drive_link)
