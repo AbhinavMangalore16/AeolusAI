@@ -2,7 +2,6 @@
 
 Quickly access accurate weather information with a clean, modern and user-friendly design.
 
-<img src="thumbnail.png" alt="Weather" width="100%">
 
 ## Installation
 
