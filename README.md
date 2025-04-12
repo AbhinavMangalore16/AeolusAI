@@ -13,7 +13,7 @@ A sleek weather dashboard that combines real-time forecast data and a trained ML
 - Frontend: React + Tailwind
 - Backend (DS): Scikit-learn, MLflow, Python
 - Data Source: OpenWeatherMap API
-- Deployment: [Add if available]
+- Deployment: Vercel, Cron(https://aeolus-ai.vercel.app/)
 
 ## 🔍 ML Approach
 - Model: Regression for precipitation
