@@ -1,5 +1,7 @@
-# AeolusAI - Weather Forecast & Precipitation Prediction Dashboard
+# AeolusAI - Weather Forecast & Prediction Dashboard
+Why the name **“Aeolus”**?
 
+Because he is the Greek god of wind — and who better to trust with weather forecasts than the guy literally in charge of the skies?
 ## 🌤️ Overview
 A sleek weather dashboard that combines real-time forecast data and a trained ML model (for precipitation prediction) to deliver 5-day weather insights.
 
